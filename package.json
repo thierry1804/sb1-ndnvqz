@@ -1,0 +1,22 @@
+{
+  "name": "gas-station-management",
+  "version": "1.0.0",
+  "description": "Modern Gas Station Management System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6",
+    "express-async-handler": "^1.2.0",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4"
+  }
+}
